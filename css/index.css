@@ -18,6 +18,10 @@ p {
     line-height: 1.4;
 }
 
+ul {
+    padding-left: 1em;
+}
+
 li {
     margin: 1em;
 }
@@ -40,32 +44,32 @@ main {
 
 
 section {
-  margin: auto;
-  width: 90%;
-  display: block;
+    margin: auto;
+    width: 90%;
+    display: block;
 }
 
 h2 {
-  font-size: 1.5em;
-  text-align: center;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 address {
-  font-family: "Courier New", Courier, monospace;
-  font-style: normal;
-  display: flex;
+    font-family: "Courier New", Courier, monospace;
+    font-style: normal;
+    display: flex;
 }
 
 #phone {
-  flex-direction: row;
-  display: flex;
-  margin-right: auto;
+    flex-direction: row;
+    display: flex;
+    margin-right: auto;
 }
 
 #email {
-  flex-direction: row;
-  display: flex;
-  margin-left: auto;
+    flex-direction: row;
+    display: flex;
+    margin-left: auto;
 }
 
 my-street {
