@@ -36,8 +36,8 @@ main {
     max-width: 45em;
     background-color: rgb(255,255,255);
     padding: 2em;
-    margin-top: 4em;
-    margin-bottom: 2em;
+    margin-top: 3em;
+    margin-bottom: 3em;
     margin-left: auto;
     margin-right: auto;
 }
@@ -72,7 +72,16 @@ address {
     margin-left: auto;
 }
 
+#emailtext {
+    margin: 0em;
+    line-height: 1;
+}
+
 my-street {
   flex-direction: row;
   display: flex;
+}
+
+#skills {
+  width: 93%;
 }
